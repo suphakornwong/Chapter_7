@@ -1,0 +1,7 @@
+pyserial
+ultralytics
+opencv-python
+numpy
+cvzone
+mediapipe
+pygame-ce
