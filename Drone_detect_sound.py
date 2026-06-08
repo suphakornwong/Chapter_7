@@ -1,6 +1,6 @@
 import cv2
 import time
-import serials
+import serial
 from ultralytics import YOLO
 
 arduino_port = "COM6" # ตรวจสอบ Port ให้ถูกต้องตรงกับ Arduino IDE
