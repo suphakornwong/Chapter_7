@@ -98,8 +98,8 @@ while True:
     else:
         pass
 
-    final_x = int(clamp(current_servo_x, 0, 180))
-    final_y = int(clamp(current_servo_y, 0, 180))
+    final_x = int(clamp(current_servo_x, SERVO_X_MIN_LIMIT, SERVO_X_MAX_LIMIT))
+    final_y = int(clamp(current_servo_y, SERVO_Y_MIN_LIMIT, SERVO_Y_MAX_LIMIT))
 
     if abs(final_x - prev_servo_x) >= 1 or abs(final_y - prev_servo_y) >= 1:
         servo_pinX.write(final_x)
