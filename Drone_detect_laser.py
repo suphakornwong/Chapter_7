@@ -17,7 +17,7 @@ SMOOTHING_FACTOR = 0.6
 OFFSET_X = 15
 OFFSET_Y = 0
 
-model = YOLO("best.pt") # โหลดโมเดล YOLO
+model = YOLO("best.pt") # โหลดโมเดล YOLO // ทดลองสร้างโมเดล YOLO ด้วยตัวเองจากหนังสือ "โมเดลปัญญาประดิษฐ์ YOLO ฉบับจับมือทำ"
 
 # ตั้งค่ากล้อง
 cap = cv2.VideoCapture(1) # ปรับเป็น 0 กล้อง Laptop หรือ 1 กล้อง USB
